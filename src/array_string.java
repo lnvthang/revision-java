@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 
 public class array_string {
     public static void main(String[] args) {
@@ -18,6 +19,9 @@ public class array_string {
 //        for (String str : stringList2) {
 //            System.out.println(str);
 //        }
+
+        Arrays.sort(stringList1);
+        System.out.println("stringList1 sorted: " + stringList1);
 
         System.out.println("Find index in stringList1 by keyword");
         int index = Arrays.binarySearch(stringList1, "JSTS");
