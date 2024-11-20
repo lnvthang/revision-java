@@ -1,3 +1,5 @@
+package array;
+
 public class twodimensionalarray {
 
     public static void loopItemInTwoDimensionalArray(int[][] array) {

@@ -1,5 +1,6 @@
+package array;
+
 import java.util.Arrays;
-import java.util.List;
 
 public class array_string {
     public static void main(String[] args) {
